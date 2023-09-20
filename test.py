@@ -6,7 +6,7 @@ import json
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 
-OPEN_API_KEY = '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'
+OPEN_API_KEY = 'API KEY'
 
 os.environ['OPENAI_API_KEY'] = OPEN_API_KEY
 openai.api_key = OPEN_API_KEY
